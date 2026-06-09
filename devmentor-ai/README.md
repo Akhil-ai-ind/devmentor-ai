@@ -68,7 +68,6 @@ Back to Frontend (streamed chunk by chunk)
 cd backend
 npm install
 cp .env.example .env
-# Edit .env and add your_API_KEY
 npm run dev
 ```
 

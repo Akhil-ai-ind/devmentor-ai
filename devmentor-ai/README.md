@@ -61,7 +61,6 @@ Back to Frontend (streamed chunk by chunk)
 
 ### Prerequisites
 - Node.js 18+
-- An [Anthropic API key](https://console.anthropic.com/)
 
 ### 1. Set up the backend
 ```bash

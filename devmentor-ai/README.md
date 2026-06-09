@@ -63,13 +63,7 @@ Back to Frontend (streamed chunk by chunk)
 - Node.js 18+
 - An [Anthropic API key](https://console.anthropic.com/)
 
-### 1. Clone the repo
-```bash
-git clone https://github.com/your-username/devmentor-ai.git
-cd devmentor-ai
-```
-
-### 2. Set up the backend
+### 1. Set up the backend
 ```bash
 cd backend
 npm install
@@ -78,14 +72,14 @@ cp .env.example .env
 npm run dev
 ```
 
-### 3. Set up the frontend (new terminal)
+### 2. Set up the frontend (new terminal)
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
 
-### 4. Open your browser
+### 3. Open your browser
 Visit `http://localhost:5173`
 
 ---

@@ -2,13 +2,6 @@
 
 > An AI-powered code review and learning assistant for student and early-career developers.
 
-![DevMentor AI Demo](https://img.shields.io/badge/Status-Working_Prototype-22c55e?style=flat-square)
-![Powered by Claude](https://img.shields.io/badge/LLM-Claude_Sonnet_API-6366f1?style=flat-square)
-![React](https://img.shields.io/badge/Frontend-React_18-61DAFB?style=flat-square&logo=react)
-![Node.js](https://img.shields.io/badge/Backend-Express.js-339933?style=flat-square&logo=node.js)
-
----
-
 ## 🎯 The Problem
 
 Students and early-career developers write code and hit walls — bugs they can't fix, patterns they don't understand, no senior developer nearby to help. Stack Overflow gives answers but not explanations. ChatGPT gives code but not mentorship.
@@ -52,7 +45,7 @@ Express.js Backend             ← Port 3001
     │  • Prompt Engine (mode-aware templates)
     │
     ▼  Streaming API call
-Anthropic Claude API           ← claude-sonnet-4
+Grok API           
     │  • System prompt (role + output format)
     │  • User message (language + code + question)
     │
@@ -81,7 +74,7 @@ cd devmentor-ai
 cd backend
 npm install
 cp .env.example .env
-# Edit .env and add your ANTHROPIC_API_KEY
+# Edit .env and add your_API_KEY
 npm run dev
 ```
 
@@ -159,7 +152,7 @@ Mixing these into one prompt causes Claude to produce generic responses that are
 | **Separate prompts** | 4 focused prompts | 1 mega-prompt | Better quality per mode |
 | **Frontend rendering** | ReactMarkdown | Custom renderer | Saves dev time, well-tested |
 | **Rate limiting** | Express middleware | None / DB-based | Simple, effective for prototype |
-| **Model** | claude-sonnet-4 | Opus / Haiku | Best balance of quality + cost |
+| **Model** | Grok | Best balance of quality + cost |
 
 ---
 
@@ -176,7 +169,7 @@ If I had more time:
 
 ## 👤 Built By
 
-**Akhil S Nair** — B.Tech CSE (AI & ML), 2025 Graduate  
+**Akhil S Nair** — B.Tech CSE (AI & ML)  
 Sree Buddha College of Engineering, Kerala
 
 📧 akhilsnair.work@gmail.com  
